@@ -1,0 +1,3 @@
+# KenLM must be compiled with MAX_ORDER=10 for the included 9-gram LM.
+# Prefer: bash scripts/install_reproduce_env.sh
+kenlm==0.3.0
