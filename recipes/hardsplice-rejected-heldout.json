@@ -1,0 +1,41 @@
+{
+  "name": "hardsplice-rejected-heldout",
+  "status": "validation-selected-but-rejected-by-heldout-audit",
+  "split": "val+test",
+  "test_touched_for_this_score": true,
+  "validation_cer_lm": 0.2728322025861278,
+  "validation_wer_lm": 0.471260113783946,
+  "heldout_run_id": "hardsplice_test_decode_fullbranch_20260708T0950Z",
+  "heldout_cer_lm": 0.29474352603863296,
+  "heldout_wer_lm": 0.5726374987573456,
+  "heldout_raw_cer": 0.3429896924661445,
+  "heldout_rows": 521,
+  "heldout_subjects": 19,
+  "heldout_fold0_cer_lm": 0.29480152849438745,
+  "heldout_fold1_cer_lm": 0.29659851254367525,
+  "beats_current_verified_best": false,
+  "beats_meta_v1_threshold": false,
+  "current_verified_best_cer_lm": 0.29096357106460957,
+  "meta_v1_threshold_cer": 0.29,
+  "recipe": "hardsplice_b600_l125_s050_t100_l025_c075_f025",
+  "weights": {
+    "branch": 0.6,
+    "late": 0.125,
+    "seed101": 0.05,
+    "seed202": 0.1,
+    "l2e6": 0.025,
+    "classbal": 0.075,
+    "featadp": 0.025
+  },
+  "decoder": {
+    "beam": 200,
+    "max_labels": 10,
+    "lm_weight": 1.925,
+    "space_bias": 0.0,
+    "repeat_penalty": -0.025
+  },
+  "fold0_cer_lm": 0.27455209110909173,
+  "fold1_cer_lm": 0.27447967110099714,
+  "rows": 522,
+  "subjects": 19
+}
