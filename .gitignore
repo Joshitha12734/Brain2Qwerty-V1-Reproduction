@@ -1,0 +1,13 @@
+.venv/
+.venv-*/
+.repro-build/
+__pycache__/
+*.py[cod]
+.cache/
+out/
+*.bin
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+.env
