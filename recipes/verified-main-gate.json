@@ -1,0 +1,28 @@
+{
+  "name": "verified-main-gate",
+  "status": "verified-heldout-not-sota",
+  "split": "test",
+  "test_touched": true,
+  "heldout_cer_lm": 0.29096357106460957,
+  "heldout_wer_lm": 0.560563820633256,
+  "meta_v1_target_cer": 0.29,
+  "beats_meta_v1_target": false,
+  "run_id": "frozen_subject_gate_test_decode_main_selected_20260707T2218Z",
+  "recipe": "gate005_late_s101_s202_l2e6_675_10_10_10_025",
+  "weights": {
+    "gate005": 0.675,
+    "late": 0.1,
+    "seed101": 0.1,
+    "seed202": 0.1,
+    "l2e6": 0.025
+  },
+  "decoder": {
+    "beam": 200,
+    "max_labels": 10,
+    "lm_weight": 2.05,
+    "space_bias": 0.0,
+    "repeat_penalty": -0.05
+  },
+  "rows": 521,
+  "subjects": 19
+}
