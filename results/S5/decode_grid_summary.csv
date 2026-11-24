@@ -1,0 +1,2 @@
+recipe,beam_size,max_labels,lm_weight,space_bias,repeat_penalty,acoustic_weight,logit_temperature,raw_CER,CER_LM,WER_LM,n_rows,n_subjects
+gate005_late_s101_s202_l2e6_675_10_10_10_025,200,10,2.05,0.0,-0.05,1.0,1.0,0.4204902449000665,0.38019478482197533,0.6928362573099416,57,1
