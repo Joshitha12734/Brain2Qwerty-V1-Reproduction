@@ -1,0 +1,2 @@
+recipe,raw_CER,raw_WER,n_rows,n_subjects,weights,path,error
+gate005_late_s101_s202_l2e6_675_10_10_10_025,0.4204902449000665,0.7741228070175438,57,1,"{'gate005': 0.675, 'late': 0.1, 'seed101': 0.1, 'seed202': 0.1, 'l2e6': 0.025}",/content/brain2qwerty-S5-output/recipes/gate005_late_s101_s202_l2e6_675_10_10_10_025.csv,
